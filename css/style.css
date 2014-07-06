@@ -273,8 +273,8 @@ img::-moz-selection {
     padding: 100px 0;
     text-align: center;
     color: white;
-    background: url(../images/screenshot.png) no-repeat center center fixed;
-    background-color: #000;
+    background-color: #222;
+    background: url(../images/screenshot.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -301,7 +301,7 @@ button.btn-join {
     border-radius: 4px;
 }
 button.btn-join:hover {
-    background: #2956B2;
+    background: green;
 }
 .intro-text {
     border-radius: 5px;
