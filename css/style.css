@@ -273,7 +273,7 @@ img::-moz-selection {
     padding: 100px 0;
     text-align: center;
     color: white;
-    background: url(../images/stepsdown.jpg) no-repeat center center fixed;
+    background: url(../images/screenshot.png) no-repeat center center fixed;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
