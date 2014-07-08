@@ -274,7 +274,7 @@ img::-moz-selection {
     text-align: center;
     color: white;
     background-color: #222;
-    background: url(../images/screenshot.jpg) no-repeat center center fixed;
+    background: url(../images/city.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -304,10 +304,15 @@ button.btn-join:hover {
     background: green;
 }
 .intro-text {
-    border-radius: 5px;
-    padding: 15px;
-    background: rgba(0, 0, 0, 0.7);
+    border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
 
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.8);
+
+}
+.form-group {
+    margin-top: 20px;
 }
 .intro-text p {
     color: white;
