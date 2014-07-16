@@ -299,7 +299,7 @@ td {
     color: white;
 }
 
-button.btn-join {
+button.btn-join, a.btn-join {
     font-size: 18px;
     padding: 7px 15px;
     position: relative;
