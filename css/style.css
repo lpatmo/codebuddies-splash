@@ -259,6 +259,9 @@ img::-moz-selection {
     display: block !important;
 }
 
+td {
+    font-size: 20px;
+}
 
 /*Custom Layout Adjustments*/
 .download-section {
