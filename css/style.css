@@ -10,11 +10,11 @@ html {
     height: 100%;
 }
 
-span.green {
-    color: green;
+.green {
+    color: #7CFC00;
 }
 
-span.red {
+.red {
     color: red;
 }
 
