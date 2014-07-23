@@ -11,7 +11,8 @@
         <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
 
         <link href="css/style.css" rel="stylesheet">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" 
+   href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"/>
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
         <link href='http://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css'>
@@ -100,7 +101,7 @@
      
 
       <!-- Table -->
-      <table class="table">
+      <table class="table table-responsive">
         <thead>
           <tr>
             <th>Resource</th>
@@ -112,24 +113,24 @@
           <tr>
             <td>Codecademy's Web Fundamentals Track</td>
             <td>HTML/CSS</td>
-  <td><a href="http://bit.ly/1wKBaBN" target="_blank" class="button btn btn-join block"><span class="green">Join Now</span></a></td>
+  <td><a href="http://bit.ly/1wKBaBN" target="_blank" class="button btn btn-join"><span class="green">Join Now</span></a></td>
 
           </tr>
           <tr>
             <td>Eloquent Javascript</td>
             <td>Javascript</td>
-            <td><a class="button btn btn-join block">Join Soon</a></td>
+            <td><a class="button btn btn-join">Join Soon</a></td>
           </tr>
           <tr>
             <td>Learn Python the Hard Way</td>
             <td>Python</td>
-            <td><a class="button btn btn-join block">Join Soon</a></td>
+            <td><a class="button btn btn-join">Join Soon</a></td>
 
           </tr>
             <tr>
             <td>Git: The Simple Guide, etc.</td>
             <td>Git</td>
-            <td><a class="button btn btn-join block">Join Soon</a></td>
+            <td><a class="button btn btn-join">Join Soon</a></td>
 
           </tr>
         </tbody>
@@ -147,8 +148,15 @@
         <div class="about-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>About</h2>
-                     <p>We love Stackoverflow. We love tech meetups. We love r/programming, free programming e-books, Code School, Codecademy, Treehouse, One Month and the online forums on MOOCs such as Udacity and Coursera. Our hope is that with Code Buddies, you'll be able to get un-stuck faster -- and finally <em>master</em> those tech skills you set for yourself.</p>        
+                   
+                     <h2 id="faq-weekly">What's required of me once I join a study group?</h2>
+<p>Here's what you can expect:</p>
+<ol>
+                    <li><strong>An introductory e-mail.</strong> <br />Everyone will be asked to reply to introduce themselves, and talk briefly about why they're interested in learning the particular tech skill they signed up for.</li>
+                    <li><strong>A weekly 30-45 minute Google Hangout check-in.</strong><br /> Use a dedicated time each week to review what you learned, answer each other's questions, and potentially show off any projects you've built using what you've learned.</li>
+                    <li><strong>A group worksheet with the following information: "what I learned" and "what I got stuck on."</strong>      </li>
+                    
+                </ol>     
                 </div>
             </div>
         </div>
@@ -169,7 +177,7 @@
 <p><a href="#faq-project">But I want to work on a project!</a></p>
 </section>
 <h3 id="faq-what">What is CodeBuddies.org?</h3>
-<p>We're a community of people learning web development. Study groups help us learn faster. </p>
+<p>We're a community of people learning web development. Study groups help us learn and get un-stuck faster. </p>
 
 <h3 id="faq-why">Why CodeBuddies.org?</h3>
                 <p> The number of resources available online for anyone who wants to learn web development on their own is vast, but it can be quite frustrating for a beginner the first time they set up a development environment, touch the command line, fix a merge conflict in git, miss a semicolon, or find that a section of a tutorial they were following is outdated.</p>
@@ -218,6 +226,7 @@
     <!-- Core JavaScript Files -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
 
