@@ -383,10 +383,9 @@ input#email {
 }
 
 /*Responsive*/
-@media(min-width:480px) {
-    table {
-        width: 300px;
-        background: yellow;
+@media(max-width:480px) {
+    .mobile-hidden {
+        display: none;
     }
 
 }
