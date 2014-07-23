@@ -383,6 +383,13 @@ input#email {
 }
 
 /*Responsive*/
+@media(min-width:480px) {
+    table {
+        width: 300px;
+        background: yellow;
+    }
+
+}
 @media(min-width:767px) {
     p {
         margin: 0 0 35px;
@@ -432,6 +439,10 @@ input#email {
 @media(max-width:767px) {
     .intro-text h1 {
         font-size: 32px;
+    }
+    .navbar-header a {
+        position: relative;
+        top: 16px;
     }
     td {
         font-size: 16px;
