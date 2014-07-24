@@ -24,6 +24,10 @@ html {
 
 
 /*Typography*/
+
+a.heavy, .navbar-nav>li>a {
+    font-family: 'Abril Fatface', cursive;
+}
 a.btn, ul.nav a {
     color: white;
 }
@@ -295,12 +299,12 @@ td {
 .intro {
     display: table;
     width: 100%;
-    height: 300px;
+    height: 100px;
     padding: 10px 0;
     text-align: center;
     color: white;
     background-color: #222;
-    background: url(../images/city.jpg) no-repeat center center fixed;
+    background: url(../images/books2.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -325,6 +329,7 @@ button.btn-join, a.btn-join {
     background: #2956B2;
     border: 1px solid white;
     border-radius: 4px;
+    color: white;
 }
 button.btn-join:hover {
     background: green;
@@ -373,8 +378,8 @@ button.btn-join:hover {
 input#email {
     border-radius: 4px;
     padding: 4px 10px;
-    border: none;
-    color: black;
+    border: 1px solid #ccc;
+    font-size: 23px;
 }
 .navbar-fixed-top {
     color: white;
@@ -403,7 +408,7 @@ input#email {
         padding: 100px 0;
     }
     .intro {
-        height: 60%;
+        height: 40%;
         padding: 0;
     }
 
