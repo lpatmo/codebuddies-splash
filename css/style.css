@@ -46,7 +46,7 @@ h6 {
     font-family: 'open sans';
 }
 .intro-text h1 {
-    font-size: 28px;
+    font-size: 33px;
     font-family: 'open sans';
 }
 .navbar a, .intro-text h1 {
@@ -442,7 +442,7 @@ input#email {
 
 @media(max-width:767px) {
     .intro-text h1 {
-        font-size: 32px;
+        font-size: 27px;
     }
     .navbar-header a {
         position: relative;
