@@ -22,9 +22,24 @@ html {
     margin: 0;
 }
 
+.button-facebook.btn {
+    background: #3b5998;
+    color: white;
+    font-size: 30px;
+    width: 100%;
+}
+.button-twitter.btn {
+    background: #4099FF;
+    color: white;
+    font-size: 30px;
+    width: 100%;
+}
+
 
 /*Typography*/
-
+.social-media {
+    font-size: 24px;
+}
 a.heavy, .navbar-nav>li>a {
     font-family: 'Abril Fatface', cursive;
 }
