@@ -16,6 +16,7 @@
         <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
         <link href='http://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css'>
+        <link href='http://cdn.datatables.net/1.10.1/css/jquery.dataTables.css' rel='stylesheet' type='text/css'>
 
     </head>
    <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
@@ -60,7 +61,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <div class="intro-text"><h1>Free, online <span class="green">study groups</span> <br />for people learning Web Development</h1>
+                        <div class="intro-text"><h1>Free, online study groups <br />for people learning Web Development</h1>
 
                                              <p>There is a wealth of resources online, but it's easy to get stuck.</p>
 
@@ -79,7 +80,7 @@
 
     <section id="studygroups" class="container content-section">
         <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
+            <div class="col-lg-10 col-lg-offset-1">
 
              
     <h3>Study groups in progress:</h3>
@@ -89,7 +90,7 @@
      
 
       <!-- Table -->
-      <table class="table">
+      <table class="table" id="study-groups">
         <thead>
           <tr>
             <th class="tag mobile-hidden">What are you learning?</th>
@@ -101,25 +102,25 @@
           <tr>
             <td class="tag mobile-hidden">HTML/CSS</td>
             <td><a href="http://codecademy.com/en/tracks/web" target="_blank">Codecademy's Web Fundamentals Track</a> </td>
-  <td><a href="http://bit.ly/1wKBaBN" target="_blank" class="button btn btn-join block"><span class="green">Join Soon</span></a></td>
+  <td><a href=" http://bit.ly/X7QMVm" target="_blank" class="button btn btn-join block"><span class="green">Join Now</span></a></td>
 
           </tr>
           <tr>
             <td class="tag mobile-hidden">Javascript</td>
             <td><a href="http://eloquentjavascript.net/chapter1.html" target="_blank">Eloquent Javascript</a></td>
             
-            <td><a class="button btn btn-join block">Join Soon</a></td>
+            <td><a href="http://bit.ly/1tlvYHi" target="_blank" class="button btn btn-join block"><span class="green">Join Now</span></td>
           </tr>
           <tr>
             <td class="tag mobile-hidden">Python</td>
             <td><a href="http://learnpythonthehardway.org/book/" target="_blank">Learn Python the Hard Way</a></td>
-            <td><a class="button btn btn-join block">Join Soon</a></td>
+            <td><a href="http://bit.ly/1rzrUiw" target="_blank" class="button btn btn-join block"><span class="green">Join Now</span></td>
 
           </tr>
             <tr>
             <td class="tag mobile-hidden">Ruby on Rails</td>
             <td><a href="http://www.railstutorial.org/book/beginning#cha-beginning" target="_blank">Michael Hartl's Ruby on Rails Tutorial</a></td>
-            <td><a class="button btn btn-join block">Join Soon</a></td>
+            <td><a href="http://bit.ly/1rzx1iJ" target="_blank" class="button btn btn-join block"><span class="green">Join Now</span></td>
 
           </tr>
         </tbody>
@@ -283,20 +284,27 @@ If you get stuck on something, persist with it and also let other people know so
     <!-- Custom Theme JavaScript -->
     <script src="js/modernizr.js"></script>
     <script src="js/grayscale.js"></script>
-
-
+    <script src="http://cdn.datatables.net/1.10.1/js/jquery.dataTables.js"></script>
 
 
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
+       <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-52574705-1', 'auto');
+  ga('create', 'UA-53294625-1', 'auto');
   ga('send', 'pageview');
+
+
+
+//   $(document).ready( function () {
+//     $('#study-groups').DataTable({
+//         paging: false
+//     });
+// } );
 
 </script>
     </body>
