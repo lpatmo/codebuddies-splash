@@ -9,7 +9,11 @@ html {
     width: 100%;
     height: 100%;
 }
-
+p.small {
+    font-size: 68%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
 .green {
     color: #7CFC00;
 }
