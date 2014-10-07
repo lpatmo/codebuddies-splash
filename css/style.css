@@ -14,6 +14,16 @@ p.small {
     padding-bottom: 0;
     margin-bottom: 0;
 }
+h3.desc {
+    display: block;
+    text-align: center;
+    font-weight: 200;
+    padding: 20px 40px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: 1px dashed #ccc;
+    width: 500px;
+}
 .green {
     color: #7CFC00;
 }
@@ -416,6 +426,7 @@ input#email {
     .mobile-hidden {
         display: none;
     }
+    h3.desc { width: 100%;}
 
 }
 @media(min-width:767px) {
@@ -425,7 +436,7 @@ input#email {
         line-height: 1.6;
     }
     .content-section {
-        padding-top: 50px;
+        padding-top: 20px;
     }
 
     .about-section {
