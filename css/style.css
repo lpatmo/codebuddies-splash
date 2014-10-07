@@ -330,10 +330,6 @@ td {
     -o-background-size: cover;
 }
 
-.fa {
-   // font-size: 40px;
-    //color: #97CB66;
-}
 .fa-send-o {
     font-size: 20px;
     color: white;
@@ -350,15 +346,24 @@ button.btn-join, a.btn-join {
     border-radius: 4px;
     color: white;
 }
+a.btn-join-wide {
+    width: 100%;
+padding: 20px;
+font-size: 28px;
+color:#3b5;
+background: #2956B2;
+}
+
 button.btn-join:hover {
     background: green;
 }
+
 .intro-text {
     border-bottom-right-radius: 5px;
         border-bottom-left-radius: 5px;
 
     padding: 15px;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(51,187,85, 0.9);
 
 }
 .form-group {
