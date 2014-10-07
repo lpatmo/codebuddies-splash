@@ -22,7 +22,7 @@ h3.desc {
     margin: 0 auto;
     margin-bottom: 20px;
     border: 1px dashed #ccc;
-    width: 500px;
+    width: 620px;
 }
 .green {
     color: #7CFC00;
@@ -426,9 +426,13 @@ input#email {
     .mobile-hidden {
         display: none;
     }
-    h3.desc { width: 100%;}
+    
 
 }
+@media(max-width:620px) {
+h3.desc { width: 100%;}
+}
+
 @media(min-width:767px) {
     p {
         margin: 0 0 35px;
