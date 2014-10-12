@@ -70,7 +70,7 @@ h4,
 h5,
 h6 {
     margin: 0 0 35px;
-    font-weight: 700;
+    font-weight: 200 !important;
     letter-spacing: 1px;
     font-family: 'open sans';
 }
@@ -84,6 +84,14 @@ h6 {
 p.layer {
     background: rgba(0,0,0,0.8);
 }
+div.box-dashed {
+    border: 1px dashed #ccc;
+    padding: 10px;
+}
+div.box-dashed h2 {
+    margin-top: 0;
+}
+.emphasis {font-weight: bold;}
 .reason {
     background: rgba(0,0,0,0.8);
     width: 100%;
@@ -340,11 +348,34 @@ td {
     -o-background-size: cover;
 }
 
+span.page-title {
+    display: block;
+    padding: 10px 0;
+}
+
 .fa-send-o {
     font-size: 20px;
     color: white;
 }
-
+.btn-normal, .btn-join-hangout {
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    background: #2956B2;
+    padding: 7px 15px;
+    border-radius: 4px;
+    text-align: center;
+}
+.btn-normal:hover, .btn-join-hangout:hover {
+    color: white;
+}
+.btn-join-hangout {
+    background: green;
+    width: 60%;
+}
+.btn-normal {
+    width:39%;
+}
 button.btn-join, a.btn-join {
     font-size: 18px;
     padding: 7px 15px;
@@ -360,7 +391,6 @@ a.btn-join-wide {
     width: 100%;
 padding: 20px;
 font-size: 28px;
-color:#3b5;
 background: #2956B2;
 }
 
