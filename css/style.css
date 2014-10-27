@@ -170,7 +170,9 @@ li.page-scroll a#about {
     background-color: #000;
 }
 
-
+.nav>li>a:hover {
+    color: black;
+}
 .navbar-custom .nav li a {
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -188,7 +190,7 @@ li.page-scroll a#about {
 .navbar-custom .nav li.active {
     outline: 0;
     background-color: blue;
-    color: white;
+    color: black;
 }
 
 .navbar-toggle:focus,
@@ -438,7 +440,16 @@ ul.items li a {
 }
 ul.items {
     list-style: none;
-    padding-left: 50px;
+    padding-left: 0px;
+}
+ul.menu li {
+    float: left;
+    padding: 0 10px;
+    font-size: 40px;
+    border-right: 1px solid black;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    margin: 0px 10px;
 }
 
 .intro-text ul li {
