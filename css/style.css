@@ -126,7 +126,12 @@ p.description-large {
     line-height: 40px;
 }
 
-
+span.description-more {
+    font-size: 20px;
+    display: inline-block;
+    line-height: 25px;
+    margin-top: 10px;
+}
 
 
 
