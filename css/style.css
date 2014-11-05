@@ -18,7 +18,7 @@ h3.desc {
     display: block;
     text-align: center;
     font-weight: 200;
-    padding: 20px 40px;
+    padding: 20px 30px;
     margin: 0 auto;
     margin-bottom: 20px;
     border: 1px dashed #ccc;
@@ -366,8 +366,8 @@ background: #2956B2;
         border-bottom-left-radius: 5px;
 
     padding: 15px;
-    background: #53a93f;
-    //background: rgba(255,153,0, 0.9);
+    //background: #53a93f;
+    background: rgba(0,0,0, 0.8);
 
 }
 .form-group {
