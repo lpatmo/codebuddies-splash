@@ -31,6 +31,12 @@ h3.desc {
 .red {
     color: red;
 }
+.buffer-top-6 {
+    margin-top: 60px;
+}
+.buffer-bottom-6 {
+    margin-bottom: 60px;
+}
 
 #faq-contents p {
     margin: 0;
@@ -76,9 +82,12 @@ h4,
 h5,
 h6 {
     margin: 0 0 35px;
-    //font-weight: 200 !important;
+    font-weight: 200 !important;
     letter-spacing: 1px;
     font-family: 'open sans';
+}
+h2 {
+    text-transform: uppercase;
 }
 .intro-text h1 {
     font-size: 33px;
@@ -122,8 +131,8 @@ p.large {
     font-size: 40px;
 }
 p.description-large {
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 26px;
+    line-height: 30px;
 }
 
 span.description-more {
@@ -299,6 +308,11 @@ td {
     background-size: cover;
     -o-background-size: cover;
 }
+.center {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
 
 span.page-title {
     display: block;
@@ -436,6 +450,9 @@ input#email {
 @media(max-width:480px) {
     .mobile-hidden {
         display: none;
+    }
+    iframe {
+        width: 120%;
     }
     
 
