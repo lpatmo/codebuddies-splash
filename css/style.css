@@ -87,7 +87,7 @@ h6 {
     font-family: 'open sans';
 }
 h2 {
-    text-transform: uppercase;
+    text-shadow: 0 2px #efefef, 0 3px #ccc;
 }
 p.caption {
     font-size: 14px; width: 100%;
@@ -138,10 +138,10 @@ p.description-large {
     line-height: 30px;
 }
 
-span.description-more {
+.description-more {
     font-size: 20px;
     display: inline-block;
-    line-height: 25px;
+    line-height: 24px;
     margin-top: 10px;
 }
 
@@ -259,6 +259,7 @@ li.page-scroll a#about {
     padding: 25px;
     font-size: 26px;
 }
+
 
 .btn-default {
     border: 1px solid #28c3ab;
@@ -398,20 +399,20 @@ background: #2956B2;
 }
 
 ul.items li a {
-    font-size: 25px;
+    font-size: 18px;
+    line-height: 16px;
 }
 ul.items {
     list-style: none;
     padding-left: 0px;
+    margin-top: 10px;
 }
 ul.menu li {
     float: left;
     padding: 0 10px;
-    font-size: 40px;
     border-right: 1px solid black;
     border-top-left-radius: 20%;
     border-top-right-radius: 20%;
-    margin: 0px 10px;
 }
 
 .intro-text ul li {
