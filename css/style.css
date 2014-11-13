@@ -89,6 +89,9 @@ h6 {
 h2 {
     text-transform: uppercase;
 }
+p.caption {
+    font-size: 14px; width: 100%;
+}
 .intro-text h1 {
     font-size: 33px;
     font-family: 'open sans';
