@@ -1,6 +1,7 @@
 We're a community of people learning web development. Learning with others helps us learn faster. The project is free and open-sourced.
 
 ##Background
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/lpatmo/codebuddies-splash?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [http://www.codebuddies.org](http://www.codebuddies.org)
 
 ##How to contribute
