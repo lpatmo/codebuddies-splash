@@ -1,0 +1,52 @@
+
+.button{height:50px;
+        width:350px;
+        margin:1px;
+   		padding:1px;
+  		text-align:center;
+    	vertical-align:middle;
+        background-color:green;
+        font-size:24px;
+        margin-left:auto;
+        margin-right:auto;
+
+}
+div {
+	background-color:red;
+
+}
+ul{
+	list-style-type:none
+}
+li{
+
+}
+#Question{
+	width:100%;
+	height:160px;
+	margin:1px;
+    padding:1px;
+	font-size:48px;
+	text-align:center;
+}
+.Learning{
+	font-size:36px;
+}
+#res1{
+	display:none;
+}
+#res2{
+	display:none;
+}
+#res3{
+	display:none;
+}
+#res4{
+	display:none;
+}
+#res5{
+	display:none;
+}
+#back{
+	display:none;
+}
