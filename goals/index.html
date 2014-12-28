@@ -7,53 +7,48 @@
 <body>
 	<div id="Question">
 		What are your coding goals for 2015?
-	
-	
 		<p class="Learning">I am learning...</p>
 </div>
-<div id = "buttons">
+<div id="buttons">
 	<ul>
-		<li id ="b1" class = "button">Lorem</li>
-		<li id ="b2" class = "button">Ipsum</li>
-		<li id ="b3" class = "button">Dolor</li>
-		<li id ="b4" class = "button">Sit</li>
-		<li id ="b5" class = "button">Amet</li>
+		<li id="b1" class="button">Lorem</li>
+		<li id="b2" class="button">Ipsum</li>
+		<li id="b3" class="button">Dolor</li>
+		<li id="b4" class="button">Sit</li>
+		<li id="b5" class="button">Amet</li>
 	</ul>
 </div>
-<div id = "res1"><p>"Content"</p></div>
-<div id = "res2"><p>"Content"</p></div>
-<div id = "res3"><p>"Content"</p></div>
-<div id = "res4"><p>"Content"</p></div>
-<div id = "res5"><p>"Content"</p></div>
-<div id = "back" class = "button"><p>Back</p></div>
-</body>
-</html>
-<script type = "text/javascript">
-	$(".button").mousedown(function(){
-		
-		$("#buttons").hide();
-		$("#back").show();
+<div id="res1"><p>"res1"</p></div>
+<div id="res2"><p>"res2"</p></div>
+<div id="res3"><p>"res3"</p></div>
+<div id="res4"><p>"res4"</p></div>
+<div id="res5"><p>"res5"</p></div>
+<div id="back" class="button"><p>Back</p></div>
 
+<script type="text/javascript">
+	$(".button").mousedown(function(){
+		$("#buttons").hide();
+		$("#back").fadeIn();
 	});
 	$("#b1").mousedown(function(){
-		$("#res1").show();
-		$("back").show();
+		$("#res1").fadeIn();
+		$("back").fadeIn();
 	});
 	$("#b2").mousedown(function(){
-		$("#res2").show();
-		$("back").show();
+		$("#res2").fadeIn();
+		$("back").fadeIn();
 	});
 	$("#b3").mousedown(function(){
-		$("#res3").show();
-		$("back").show();
+		$("#res3").fadeIn();
+		$("back").fadeIn();
 	});
 	$("#b4").mousedown(function(){
-		$("#res4").show();
-		$("back").show();
+		$("#res4").fadeIn();
+		$("back").fadeIn();
 	});
 	$("#b5").mousedown(function(){
-		$("#res5").show();
-		$("back").show();
+		$("#res5").fadeIn();
+		$("back").fadeIn();
 	});
 	$("#back").mousedown(function(){
 		$("#back").hide();
@@ -62,7 +57,10 @@
 		$("#res3").hide();
 		$("#res4").hide();
 		$("#res5").hide();
-		$("#buttons").show();
+		$("#buttons").fadeIn();
 	});
 
 </script>
+
+</body>
+</html>

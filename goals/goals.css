@@ -5,14 +5,13 @@
    		padding:1px;
   		text-align:center;
     	vertical-align:middle;
-        background-color:green;
+        //background-color:green;
         font-size:24px;
-        margin-left:auto;
-        margin-right:auto;
+        margin: 0 auto;
 
 }
 div {
-	background-color:red;
+	//background-color:red;
 
 }
 ul{
