@@ -1,0 +1,63 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>CodeBuddies</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+
+     
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.3/fullcalendar.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.3/fullcalendar.print.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.3/fullcalendar.css">
+
+<style type="text/css">
+    .python-calendar {background: green;}
+
+</style>
+
+    </head>
+    <body>
+        Hello world!
+        <div id="calendar"></div>
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.3/fullcalendar.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.3/gcal.js"></script>
+
+<script type='text/javascript'>
+
+$(document).ready(function() {
+    $('#calendar').fullCalendar({
+        theme: true,
+        header: {
+            left:   'title',
+            center: '',
+            right:  'today prev,next'
+        },
+        googleCalendarApiKey: 'AIzaSyCijPWGRz1OlM_kV-H-WBdcUr-O0RtS82A',
+        eventSources: [
+            {
+                googleCalendarId: 'n2kqvr7iodonte8f9q73mr9qhc@group.calendar.google.com',
+                className: 'javascript-calendar'
+            },
+            {
+                googleCalendarId: 'dp4ppjbh22jhc0t8t9it8go66g@group.calendar.google.com',
+                className: 'python-calendar'
+            }
+        ]
+    });
+});
+
+</script>
+
+</body>
+    </html>
