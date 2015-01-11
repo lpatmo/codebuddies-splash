@@ -14,18 +14,22 @@ p.small {
     padding-bottom: 0;
     margin-bottom: 0;
 }
-h3.desc {
+a.desc {
     display: block;
     text-align: center;
     font-weight: 200;
     padding: 20px 30px;
     margin: 0 auto;
-    margin-bottom: 20px;
-    border: 1px dashed #ccc;
-    width: 620px;
+    width: 100%;
+    background: dodgerblue;
+    color: white;
+    font-size: 1.2em;
+    border: none;
 }
-.green {
-    color: #7CFC00;
+a.desc:hover { color: white; background: rgba(30,144,255, 0.8);}
+.screenshot:hover { opacity:0.8;}
+.highlight {
+    color: dodgerblue;
 }
 
 .red {
@@ -63,9 +67,8 @@ h3.desc {
     margin-top: 10px;
 }
 /*Typography*/
-.social-media {
-    font-size: 24px;
-}
+blockquote { font-size: 1.4em !important;}
+
 a.heavy, .navbar-nav>li>a {
     font-family: 'Abril Fatface', cursive;
 }
@@ -73,27 +76,24 @@ a.btn, ul.nav a {
     color: white;
 }
 a, a:hover, a:focus {
-    text-decoration: none !important;
+    text-decoration: none;
 }
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
+h6, p, blockquote {
     margin: 0 0 35px;
     font-weight: 200 !important;
-    letter-spacing: 1px;
     font-family: 'open sans';
 }
-h2 {
-    text-shadow: 0 2px #efefef, 0 3px #ccc;
-}
+
 p.caption {
     font-size: 14px; width: 100%;
 }
 .intro-text h1 {
-    font-size: 33px;
+    font-size: 1.5em;
     font-family: 'open sans';
 }
 .navbar a, .intro-text h1 {
@@ -356,7 +356,7 @@ span.page-title {
 .btn-normal {
     width:39%;
 }
-button.btn-join, a.btn-join {
+a.btn-join {
     font-size: 18px;
     padding: 7px 15px;
     position: relative;
@@ -366,6 +366,8 @@ button.btn-join, a.btn-join {
     border: 1px solid white;
     border-radius: 4px;
     color: white;
+    width: 150px;
+    display: inline-block !important;
 }
 a.btn-join-wide {
     width: 100%;
@@ -393,6 +395,8 @@ background: #2956B2;
 }
 .intro-text p {
     color: white;
+    font-size: 1em;
+    line-height: 1.2;
 }
 .intro-text p, .btn, input#email, .intro-text ul li {
     font-family: 'open sans';
@@ -461,11 +465,13 @@ input#email {
     
 
 }
-@media(max-width:620px) {
-h3.desc { width: 100%;}
+@media screen and (max-width:620px) {
+.desc { width: 100%;}
+.hidden-phone { display: none !important;}
 }
 
 @media(min-width:767px) {
+    a.desc {font-size: 2em;}
     p {
         margin: 0 0 35px;
         font-size: 20px;
@@ -512,9 +518,6 @@ h3.desc { width: 100%;}
 }
 
 @media(max-width:767px) {
-    .intro-text h1 {
-        font-size: 27px;
-    }
     .navbar-header a {
         position: relative;
         top: 16px;
