@@ -15,7 +15,7 @@ p { margin: 10px 0; line-height: 1;}
 
 ul li { font-size: 1em;}
 div.input-group { margin: 10px 0; width: 90%;}
-textarea.form-control { font-size: 1em; width: 100%; border: 3px solid #ccc; min-height: 200px; color: #000;}
+textarea.form-control { font-size: .7em; width: 100%; border: 3px solid #ccc; min-height: 180px; color: #000;}
 input[type="checkbox"] { font-size: .5em;}
 h1 {margin: 30px 0 20px 0; font-size: 2.4em; text-align: center;}
 label { font-size: .8em; font-weight: 400;}
