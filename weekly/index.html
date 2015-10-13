@@ -26,15 +26,20 @@
                 <div class="col-lg-10 col-lg-offset-1">
 <h1>Weekly CodeBuddies Community Updates</h1>
 <p>Productivity is sometimes hard.</p>
-<p><strong>Share a weekly update</strong> with a supportive community! Your responses will go out in a weekly newsletter to the CodeBuddies community. This is like a big <a href="http://www.forbes.com/sites/chicceo/2013/10/21/7-reasons-to-join-a-mastermind-group/" target="_blank">mastermind group</a> -- except <strong>all updates will be anonymous</strong> unless you out yourself in the message. </p>
+<p><strong>Share a weekly update</strong> with a supportive community! Your responses will go out in a weekly newsletter to the CodeBuddies community. </p>
 <p>Examples of what you could share:</p>
-<ul>
-<li> something small you learned about CSS or Javascript</li>
-<li> a link to a project you're starting or a blog post you published</li>
-<li> a shout-out to a friend's project</li>
-<li> a question you have for the community</li>
 
+<ul class="ss-choices" role="group" aria-label="Categories  " id="examples"><li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.154086692" value="something you learned this week (it could be something small!)" id="group_154086692_1" role="checkbox" class="ss-q-checkbox"></span>
+<span class="ss-choice-label">something you learned (it could be something small!)</span>
+</label></li> <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.154086692" value="a link to a project you&#39;re starting or a blog post you published" id="group_154086692_2" role="checkbox" class="ss-q-checkbox"></span>
+<span class="ss-choice-label">a link to a project you&#39;re starting or a blog post you published</span>
+</label></li> <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.154086692" value="a shout-out to a friend&#39;s project" id="group_154086692_3" role="checkbox" class="ss-q-checkbox"></span>
+<span class="ss-choice-label">a shout-out to a friend&#39;s project</span>
+</label></li> <li class="ss-choice-item"><label><span class="ss-choice-item-control goog-inline-block"><input type="checkbox" name="entry.154086692" value="a question you have for the community" id="group_154086692_4" role="checkbox" class="ss-q-checkbox"></span>
+<span class="ss-choice-label">a question you have for the community</span>
+</label></li></ul>
 
+<script type="text/javascript">var submitted=false;</script>
     <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"     
 onload="if(submitted) {window.location='submitted.html';}"></iframe>
 
@@ -50,6 +55,7 @@ onload="if(submitted) {window.location='submitted.html';}"></iframe>
    
 <div class="fineprint">
 <ul>
+        <li>All updates will be <strong>anonymous</strong> unless you out yourself in the message.
         <li>You can submit as many entries in a week as you want.</li>
         <li>An archive of weekly updates will be posted <a href="http://tinyletter.com/codebuddies/archive" target="_blank">here</a>.</li>
 </ul>
@@ -68,12 +74,28 @@ onload="if(submitted) {window.location='submitted.html';}"></iframe>
 
 
     <!-- Custom Theme JavaScript -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/grayscale.js"></script>
-    <script src="http://cdn.datatables.net/1.10.1/js/jquery.dataTables.js"></script>
+    <script>
 
 
-<script type="text/javascript">var submitted=false;</script>
+    $(function() { 
+      
+      function checked_ui() {
+          if ($(this).is(':checked')) {
+              $(this).parent().parent('label').addClass('checked');
+           } else {
+            $(this).parent().parent('label').removeClass('checked');
+          }
+      }
+     $('input[type="checkbox"]').each(checked_ui);
+     $('input[type="checkbox"]').change(checked_ui);
+    });
+
+
+    </script>
+
+
+
+
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
        <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

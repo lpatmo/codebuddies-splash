@@ -13,6 +13,11 @@ a:link, a:visited { font-size: 1em; color: #1E90FF;}
 p { margin: 10px 0; line-height: 1;}
 .fineprint { font-size: .7em; line-height: 1; margin-top: 10px;}
 
+ul#examples li { list-style: none;}
+ul#examples label {padding: 3px 10px;}
+ul#examples label:hover { background: #1E90FF; cursor: pointer; color: #fff; padding: 3px 10px;}
+label.checked { background: #1E90FF; color: #fff;}
+label.checked:hover { color: #ffffff !important;}
 ul li { font-size: 1em;}
 div.input-group { margin: 10px 0; width: 90%;}
 textarea.form-control { font-size: .7em; width: 100%; border: 3px solid #ccc; min-height: 180px; color: #000;}
