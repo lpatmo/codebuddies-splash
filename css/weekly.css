@@ -8,10 +8,10 @@ body {
 	background-size: cover;
 	color: #fff;
 }
-.container { background: #fff; color: #000; padding: 0px; margin-top:30px;} 
+.container { background: #fff; color: #000; padding: 10px; margin-top:30px;} 
 a:link, a:visited { font-size: 1em; color: #1E90FF;}
-p { margin: 10px 0; line-height: 1;}
-.fineprint { font-size: .7em; line-height: 1; margin-top: 10px;}
+p { margin: 10px 0; line-height: 1; font-size: 1em;}
+.fineprint ul li { font-size: 1.2em; line-height: .6; margin-top: 10px;}
 
 ul#examples li { list-style: none; font-size: .8em;}
 ul#examples label {padding: 3px 10px;}
@@ -20,10 +20,10 @@ label.checked { background: #1E90FF; color: #fff;}
 label.checked:hover { color: #ffffff !important;}
 ul li { font-size: 1em;}
 div.input-group { margin: 10px 0; width: 90%;}
-textarea.form-control { font-size: .7em; width: 100%; border: 3px solid #ccc; min-height: 180px; color: #000;}
+textarea.form-control { font-size: .7em; width: 100%; border: 3px solid #ccc; height: 180px; color: #000;}
 strong { font-size: 1em;}
 input[type="checkbox"] { font-size: .5em;}
 h1 {margin: 30px 0 20px 0; font-size: 2.4em; text-align: center;}
 label { font-size: .8em; font-weight: 400;}
-.btn-primary {font-size: 1em; margin-top: 10px; background: #1E90FF;}
+a.btn-primary {font-size: 1em; margin-top: 10px; background: #1E90FF; color: #fff;}
 .fineprint { font-size: .6em;}
