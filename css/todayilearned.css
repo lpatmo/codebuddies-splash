@@ -1,0 +1,8 @@
+body {font-family: 'open sans'; font-size: 16px;}
+.hashtag { color: #ccc;}
+.highlight { color: rgba(224,21,99,0.8);}
+.box {  border-top: 1px solid #eee; padding: 10px 0;}
+p { word-wrap: break-word; padding: 0px margin: 0px;}
+p.username { color: #ccc; margin-top: 10px; font-size: 12px;}
+p.meta { font-size: 12px; font-style: italic;}
+.clear { clear: both;}
