@@ -16,7 +16,7 @@ $(document).ready(function() {
      
              item.text = item.text.replace(/<@U\w+>/, '@anonymous').replace(/</, '').replace(/>/,'').replace(/#todayilearned/,'<span class="highlight">#todayilearned</span>');
 
-             htmlString += '<div class="box"><p>' + item.text + '</p>' + '<p class="username">@' + item.username + '</p></div>'; 
+             htmlString += '<div class="box"><div class="message"><p>' + item.text + '</p></div>' + '<p class="username">@' + item.username + '  <i class="fa fa-twitter"></i>' + '<a href="#" target="_blank" class="share-on-twitter">share on twitter</a>' + '</p></div>'; 
         
 
         }); //each
@@ -24,9 +24,10 @@ $(document).ready(function() {
 
          $('#submissions').html(htmlString);
 
-                      $('.box p').html(function(_, html) {
-                return  html.replace(/(\S+\.(com|net|org|edu|gov)(\/\S+)?)/g, '<a href="$1" target="_blank">$1</a>')
-             });
+         $('.message p').html(function(_, html) {
+            return  html.replace(/(\S+\.(com|net|org|edu|gov)(\/\S+)?)/g, '<a href="$1" target="_blank">$1</a>')
+         });
+         $('a.share-on-twitter').attr('href', item.text);
 
     });
     
