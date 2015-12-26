@@ -4,6 +4,7 @@ body {font-family: 'open sans'; font-size: 18px;}
 .box {  border-top: 1px solid #aaa; padding: 10px 0;}
 p { word-wrap: break-word; padding: 0px margin: 0px;}
 p.username { color: #aaa; margin: 10px 0 0 0; font-size: 14px;}
-p.meta { font-size: 12px; font-style: italic;}
+p.meta { font-size: 13px; font-style: italic;}
 .clear { clear: both;}
 .fa-question {font-size: 20px;}
+span.tooltip-highlight { border-bottom: 1px dashed #aaa;}
