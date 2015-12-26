@@ -15,6 +15,7 @@ $(document).ready(function() {
             
      
              item.text = item.text.replace(/<@U\w+>/, '@anonymous').replace(/</, '').replace(/>/,'').replace(/#todayilearned/,'<span class="highlight">#todayilearned</span>');
+
              htmlString += '<div class="box"><p>' + item.text + '</p>' + '<p class="username">@' + item.username + '</p></div>'; 
         
 
@@ -22,6 +23,10 @@ $(document).ready(function() {
         
 
          $('#submissions').html(htmlString);
+
+                      $('.box p').html(function(_, html) {
+                return  html.replace(/(\S+\.(com|net|org|edu|gov)(\/\S+)?)/g, '<a href="$1" target="_blank">$1</a>')
+             });
 
     });
     
