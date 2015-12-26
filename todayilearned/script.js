@@ -18,7 +18,7 @@ $(document).ready(function() {
              //console.log(item.text);
              var encoded_message = encodeURI(item.text).replace('#','%23');
              item.text = item.text.replace(/#todayilearned/,'<span class="highlight">#todayilearned</span>');
-             htmlString += '<div class="box"><div class="message"><p>' + item.text + '</p></div>' + '<p class="username">@' + item.username + '  <i class="fa fa-twitter"></i>' + 'http://twitter.com/intent/tweet?text=' + encoded_message + '%23codebuddies' + ' </p></div>'; 
+             htmlString += '<div class="box"><div class="message"><p>' + item.text + '</p></div>' + '<p class="username">@' + item.username + '  <i class="fa fa-twitter"></i>' + '<span class="tweet">http://twitter.com/intent/tweet?text=' + encoded_message + '%20%23codebuddies' + '</span> </p></div>'; 
         
 
         }); //each
@@ -28,6 +28,9 @@ $(document).ready(function() {
 
          $('.message p').html(function(_, html) {
             return  html.replace(/(\S+\.(com|net|org|edu|gov)(\/\S+)?)/g, '<a href="$1" target="_blank">$1</a>')
+         });
+          $('span.tweet').html(function(_, html) {
+            return  html.replace(/(\S+\.(com|net|org|edu|gov)(\/\S+)?)/g, '<a href="$1" target="_blank">share on twitter</a>')
          });
 
      
