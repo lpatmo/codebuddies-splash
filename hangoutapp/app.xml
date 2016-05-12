@@ -37,13 +37,17 @@
       <script>
        function showParticipants() { 
        var participants = gapi.hangout.getParticipants(); 
+       var hangout_link = gapi.hangout.getHangoutUrl();
        var retVal = '<p>Participants: </p><ul>'; 
        for (var index in participants) { 
           var participant = participants[index]; 
           if (!participant.person) { 
             retVal += '<li>A participant not running this app</li>'; 
           } 
-        retVal += '<li>' + participant.person.displayName + '</li>'; } retVal += '</ul>'; 
+        retVal += '<li>' + participant.person.displayName + '</li>';
+          }
+
+        retVal += '</ul>' + '<p>This is the hangout link: ' + hangout_link + '</p>'; 
 
           var div = document.getElementById('participantsDiv'); 
 
