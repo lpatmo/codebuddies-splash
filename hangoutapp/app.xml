@@ -38,6 +38,7 @@
        function showParticipants() { 
        var participants = gapi.hangout.getParticipants(); 
        var hangout_link = gapi.hangout.getHangoutUrl();
+       var start_data = gapi.hangout.getStartData();
        var retVal = '<p>Participants: </p><ul>'; 
        for (var index in participants) { 
           var participant = participants[index]; 
@@ -47,7 +48,7 @@
         retVal += '<li>' + participant.person.displayName + '</li>';
           }
 
-        retVal += '</ul>' + '<p>This is the hangout link: ' + hangout_link + '</p>'; 
+        retVal += '</ul>' + '<p>This is the hangout link: ' + hangout_link + ' and this is the post ID:' + start_data + '</p>'; 
 
           var div = document.getElementById('participantsDiv'); 
 
